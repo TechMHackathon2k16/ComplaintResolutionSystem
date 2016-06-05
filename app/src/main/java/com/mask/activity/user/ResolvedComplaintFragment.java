@@ -7,19 +7,13 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.mask.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link ResolvedComplaintFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link ResolvedComplaintFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class ResolvedComplaintFragment extends Fragment {
 
+public class ResolvedComplaintFragment extends Fragment {
+    ListView resolvedComplaint;
     public ResolvedComplaintFragment() {
         // Required empty public constructor
     }
@@ -28,7 +22,9 @@ public class ResolvedComplaintFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_resolved_complaint, container, false);
+        View view = inflater.inflate(R.layout.fragment_resolved_complaint, container, false);
+        resolvedComplaint = (ListView)view.findViewById(R.id.buttonregister);
+        return view;
     }
 
 

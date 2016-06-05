@@ -38,7 +38,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="Change contact"
             android:id="@+id/btnContact"
             android:layout_gravity="center"
             android:layout_marginTop="30dp" />
@@ -46,7 +46,7 @@
         <TextView
             android:layout_width="66dp"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="View Address"
             android:id="@+id/txtViewAddress"
             android:layout_gravity="center"
             android:layout_marginTop="30dp" />

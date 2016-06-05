@@ -25,7 +25,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:text="Water"
-                android:id="@+id/button2"
+                android:id="@+id/buttonWater"
                 android:background="#68b3dc"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="30dp" />
@@ -34,7 +34,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:text="Electricity "
-                android:id="@+id/button3"
+                android:id="@+id/buttonElectricity"
                 android:layout_marginLeft="30dp"
                 android:background="#dbc118"
                 android:layout_marginTop="30dp" />
@@ -49,7 +49,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:text="seavage"
-                android:id="@+id/button21"
+                android:id="@+id/buttonSeavage"
                 android:background="#867a7a"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="30dp" />
@@ -58,7 +58,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:text="medical"
-                android:id="@+id/button31"
+                android:id="@+id/buttonMedical"
                 android:layout_marginLeft="30dp"
                 android:background="#e14848"
                 android:layout_marginTop="30dp" />
